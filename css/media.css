@@ -1,0 +1,111 @@
+@media (max-width: 768px) {
+ nav .my-bars {
+  display: block;
+  font-size: 30px;
+  cursor: pointer;
+ }
+ nav .nav-content ul,
+ nav .nav-content button {
+  display: none;
+ }
+ header .header-content {
+  flex-direction: column;
+  align-items: center;
+ }
+ header .header-content > div {
+  width: 80%;
+  margin-bottom: 30px;
+ }
+ .about-content,
+ .steps-content,
+ .treatment-content,
+ .do-dont .box-row,
+ .question-content .box-row {
+  flex-direction: column;
+  align-items: center;
+ }
+ .about-content > div,
+ .steps-content .steps-text,
+ .steps-content > img,
+ .treatment-content .treatment-left,
+ .treatment-content .treatment-right,
+ .question-content .box-row .left,
+ .question-content .box-row .right {
+  width: 80%;
+  margin-bottom: 30px;
+ }
+ .spread-content .box-row,
+ .symptoms-content .box-row,
+ .protect-content .box-row,
+ .wash-content .box-row,
+ .update-content .box-row {
+  justify-content: space-evenly;
+ }
+ .spread-content .box-row .box,
+ .symptoms-content .box-row .box,
+ .protect-content .box-row .box,
+ .wash-content .box-row .box,
+ .update-content .box-row .box,
+ footer .box-row .box-1,
+ footer .box-row .box {
+  width: 40%;
+ }
+ .symptoms-content .stay-home {
+  flex-direction: column;
+  gap: 40px;
+ }
+ .wash-content .box-row .box img,
+ .do-dont .box-row > img {
+  width: 60%;
+ }
+ .do-dont .box-row ul {
+  width: 50%;
+ }
+ .do-dont .box-row ul li {
+  align-items: center;
+ }
+ .do-dont .box-row .right li {
+  flex-direction: row-reverse;
+ }
+ .do-dont .box-row ul li img {
+  width: 20%;
+ }
+ .update-content .box-row .box {
+  margin-bottom: 30px;
+ }
+ footer .box-row .box-1 {
+  margin-bottom: 40px;
+ }
+}
+@media (max-width: 576px) {
+ .spread-content .box-row,
+ .symptoms-content .box-row,
+ .protect-content .box-row,
+ .wash-content .box-row,
+ .update-content .box-row,
+ footer .box-row {
+  flex-direction: column;
+  align-items: center;
+ }
+ .spread-content .box-row .box,
+ .symptoms-content .box-row .box,
+ .symptoms-content .stay-home .home-left,
+ .protect-content .box-row .box,
+ .wash-content .box-row .box,
+ .update-content .box-row .box,
+ footer .box-row .box-1,
+ footer .box-row .box {
+  width: 80%;
+ }
+ .protect-content .box-row .box img,
+ .wash-content .box-row .box img {
+  width: 30%;
+ }
+ footer .box-row .box {
+  text-align: center;
+  margin-bottom: 10px;
+ }
+ footer .box-row .box ul li a {
+  margin-bottom: 10px;
+ }
+}
