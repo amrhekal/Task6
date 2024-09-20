@@ -77,13 +77,24 @@
   margin-bottom: 40px;
  }
 }
+/* ============================================ */
 @media (max-width: 576px) {
+ header .header-content .header-left .header-howTo a {
+  margin-top: 30px;
+ }
+ header .header-content .header-left .header-record div {
+  margin-top: 30px;
+  font-size: 20px;
+ }
  .spread-content .box-row,
  .symptoms-content .box-row,
  .protect-content .box-row,
  .wash-content .box-row,
  .update-content .box-row,
- footer .box-row {
+ footer .box-row,
+ header .header-content .header-left .HL-title,
+ header .header-content .header-left .header-howTo,
+ header .header-content .header-left .header-record {
   flex-direction: column;
   align-items: center;
  }
@@ -94,14 +105,17 @@
  .wash-content .box-row .box,
  .update-content .box-row .box,
  footer .box-row .box-1,
- footer .box-row .box {
-  width: 80%;
+ footer .box-row .box,
+ .about-content .about-right .box {
+  width: 90%;
  }
  .protect-content .box-row .box img,
  .wash-content .box-row .box img {
-  width: 30%;
+  width: 40%;
  }
- footer .box-row .box {
+ footer .box-row .box,
+ header .header-content .header-left .header-howTo,
+ header .header-content .header-left .header-record div {
   text-align: center;
   margin-bottom: 10px;
  }
